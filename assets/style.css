@@ -34,7 +34,7 @@ body {
     background-size: cover;
 }
 header {
-    height: 737px;
+    height: 100%px;
 }
 nav {
     width: 100%;
