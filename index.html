@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WuyShop</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/icon/themify-icons/themify-icons.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><h1>WuyShop</h1></div>
+            <div class="links">
+                <ul>
+                    <li><a class="active" href="#">Trang chủ</a></li>
+                    <li><a href="#">Chi tiết</a></li>
+                    <li>
+                        <div class="product" onmouseenter="showMenu()" onmouseleave="hideMenu()">Sản phẩm</div>
+                    </li>
+                    <li><a href="#contact-section">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="login-sec">
+                <button class="login-btn">Đăng nhập</button>
+            </div>
+        </nav>
+        
+        <!-- <div class="d-none" id="menu-overlay" onmouseenter="showMenu()" onmouseleave="hideMenu()">
+            <div class="product-list">
+                <ul class="lev-2">
+                    <li><span>Lamborghini</span></li>
+                    <li><span>Roll Royce</span></li>
+                    <li><span>Mercedes</span></li>
+                    <li><span>BMW</span></li>
+                    <li><span>Bugatti</span></li>
+                </ul>
+            </div>
+        </div> -->
+        <div class="home-content">
+            <div class="home-container">
+                <h1>DARE TO LIVE MORE</h1>
+                <p>Hãy tham quan và lựa chọn những sản phẩm mà bạn yêu thích và đưa ngay vào giỏ hàng</p>
+                <button id="try-now">Giỏ hàng</button>
+                <button id="explore">
+                    <a href="#explore-section">Khám Phá</a>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="overlay"></div>
+    <div class="modal">
+        <form>
+            <i class="ti-close modal-log-close-btn"></i>
+            <h3>Đăng Nhập</h3>
+            <label for="username">Tài khoản</label>
+            <input type="text" placeholder="Email or Phone" id="username">
+            
+            <label for="password">Mật khẩu</label>
+            <input type="password" placeholder="Password" id ="password">
+            <button class="modal-log-btn">Đăng Nhập</button>
+            <div class="social">
+                <div class="google">
+                    <i class="ti-google">Google</i>
+                </div>
+                <div class="facebook">
+                    <i class="ti-facebook">Facebook</i>
+                </div>
+            </div>
+        </form>
+    </div>
+    <section class="hero-section" id="explore-section">
+        <h1>SẢN PHẨM NỔI BẬT</h1>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-background" style="background-image: url(./assets/img/lamborghini.jpg);"></div>
+                <div class="content">
+                    <div class="card-category">Revuelto</div>
+                    <h3 class="card-heading">Green</h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-background" style="background-image: url(./assets/img/lamborghini2.jpg);"></div>
+                <div class="content">
+                    <div class="card-category">Huracan</div>
+                    <h3 class="card-heading">Black</h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-background" style="background-image: url(./assets/img/lamborghini4.jpg);"></div>
+                <div class="content">
+                    <div class="card-category">Urus</div>
+                    <h3 class="card-heading">Green</h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-background" style="background-image: url(./assets/img/lamborghini3.jpg);"></div>
+                <div class="content">
+                    <div class="card-category">Urus</div>
+                    <h3 class="card-heading">Blue</h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-background" style="background-image: url(./assets/img/backiee-132411.jpg);"></div>
+                <div class="content">
+                    <div class="card-category">lamborghini</div>
+                    <h3 class="card-heading">Revuelto</h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-background" style="background-image: url(./assets/img/rr1.jpg);"></div>
+                <div class="content">
+                    <div class="card-category">Roll Royce</div>
+                    <h3 class="card-heading">Black And Blue</h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-background" style="background-image: url(./assets/img/wp6109128-computer-hd-rolls-royce-wallpapers.jpg);"></div>
+                <div class="content">
+                    <div class="card-category">Roll Royce</div>
+                    <h3 class="card-heading">White</h3>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-background" style="background-image: url(./assets/img/bugatti.jpg);"></div>
+                <div class="content">
+                    <div class="card-category">Black</div>
+                    <h3 class="card-heading">Bugatti</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact-section">
+        <a href="https://www.facebook.com/khanhhuy160105/" class="ti-facebook"></a>
+    
+
+        <a href="https://www.instagram.com/khanhhuy161/" class="ti-instagram"></a>
+    
+
+        <a href="https://github.com/Wuyy1601" class="ti-github"></a>
+        <h2>Powered By Wuyy1601</h2>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
